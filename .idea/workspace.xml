@@ -1,0 +1,1241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e3fbdf07-2867-442e-a422-3532c26165b5" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/eureka-server/target/" />
+    <ignored path="$PROJECT_DIR$/eureka-client/target/" />
+    <ignored path="$PROJECT_DIR$/service-ribbon/target/" />
+    <ignored path="$PROJECT_DIR$/service-feign/target/" />
+    <ignored path="$PROJECT_DIR$/zuul/target/" />
+    <ignored path="$PROJECT_DIR$/service-config/target/" />
+    <ignored path="$PROJECT_DIR$/manage-ment/target/" />
+    <ignored path="$PROJECT_DIR$/login-sms/target/" />
+    <ignored path="$PROJECT_DIR$/auth-oauth/target/" />
+    <ignored path="$PROJECT_DIR$/vehicle/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="security_test: schema" type="ebfa3cd1:MariaImplModel$Schema" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="cloud-manage" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vehicle/src/main/java/com/cqyc/vehicle/controller/ResultController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="107" column="71" lean-forward="true" selection-start-line="107" selection-start-column="71" selection-end-line="107" selection-end-column="71" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vehicle/src/main/java/com/cqyc/vehicle/service/IResultService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="393">
+              <caret line="44" column="45" selection-start-line="44" selection-start-column="45" selection-end-line="44" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/vehicle/src/main/java/com/cqyc/vehicle/service/impl/ResultServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="496">
+              <caret line="126" column="31" lean-forward="true" selection-start-line="126" selection-start-column="31" selection-end-line="126" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vehicle/src/main/java/com/cqyc/vehicle/comm/HttpClientUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="30" column="42" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="42" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vehicle/src/main/java/com/cqyc/vehicle/domain/bo/VehicleAllResBo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="217">
+              <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/manage-ment/src/main/java/com/cqyc/manage/controller/FileController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-3">
+              <caret line="91" selection-start-line="91" selection-end-line="91" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vehicle/src/main/java/com/cqyc/vehicle/comm/EasyPoiUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="205">
+              <caret line="82" column="47" selection-start-line="82" selection-start-column="47" selection-end-line="82" selection-end-column="47" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>http://localhost:8761/eureka/</find>
+      <find>like</find>
+      <find>delet</find>
+      <find>data</find>
+      <find>mysql</find>
+      <find>confi</find>
+      <find>dataSource</find>
+      <find>jwt</find>
+      <find>/oauth/token</find>
+      <find>oauth</find>
+      <find>oauth/token</find>
+      <find>l</find>
+      <find>parameters</find>
+      <find>updateDistributionStaff</find>
+      <find>login</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/zuul/src/main/java</dir>
+      <dir>$PROJECT_DIR$/service-config</dir>
+      <dir>$PROJECT_DIR$/manage-ment/src/main/java/com/cqyc/manage/domain</dir>
+      <dir>$MAVEN_REPOSITORY$/org/springframework/security/oauth/spring-security-oauth2/2.3.4.RELEASE/spring-security-oauth2-2.3.4.RELEASE.jar!/org/springframework/security/oauth2</dir>
+      <dir>$PROJECT_DIR$/vehicle/src/main/java/com/cqyc/vehicle</dir>
+      <dir>$PROJECT_DIR$/vehicle/src/main/java/com/cqyc/vehicle/service</dir>
+    </dirStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/manage-ment/src/main/java/com/cqyc/manage/domain/VehicleStep.java" />
+        <option value="$PROJECT_DIR$/manage-ment/src/main/java/com/cqyc/manage/service/IVehicleStepService.java" />
+        <option value="$PROJECT_DIR$/manage-ment/src/main/java/com/cqyc/manage/service/impl/VehicleStepServiceImpl.java" />
+        <option value="$PROJECT_DIR$/manage-ment/src/main/java/com/cqyc/manage/controller/VehicleStepController.java" />
+        <option value="$PROJECT_DIR$/vehicle/src/main/java/com/cqyc/vehicle/config/MybatisPlusConfig.java" />
+        <option value="$PROJECT_DIR$/vehicle/src/main/java/com/cqyc/vehicle/domain/Appointment.java" />
+        <option value="$PROJECT_DIR$/manage-ment/src/main/java/com/cqyc/manage/feign/impl/LoginFeignImpl.java" />
+        <option value="$PROJECT_DIR$/manage-ment/src/main/java/com/cqyc/manage/feign/LoginFeign.java" />
+        <option value="$PROJECT_DIR$/manage-ment/src/main/java/com/cqyc/manage/controller/MenuController.java" />
+        <option value="$PROJECT_DIR$/manage-ment/src/main/java/com/cqyc/manage/service/IMenuService.java" />
+        <option value="$PROJECT_DIR$/manage-ment/src/main/java/com/cqyc/manage/service/impl/MenuServiceImpl.java" />
+        <option value="$PROJECT_DIR$/login-sms/src/main/java/com/cqyc/login/service/impl/WebsiteCountServiceImpl.java" />
+        <option value="$PROJECT_DIR$/manage-ment/src/main/java/com/cqyc/manage/service/IVehicleStaffService.java" />
+        <option value="$PROJECT_DIR$/manage-ment/src/main/java/com/cqyc/manage/domain/VehicleStaff.java" />
+        <option value="$PROJECT_DIR$/manage-ment/src/main/java/com/cqyc/manage/service/impl/VehicleStaffServiceImpl.java" />
+        <option value="$PROJECT_DIR$/vehicle/src/main/java/com/cqyc/vehicle/feign/manageFeign.java" />
+        <option value="$PROJECT_DIR$/vehicle/src/main/java/com/cqyc/vehicle/domain/vo/DistriVo.java" />
+        <option value="$PROJECT_DIR$/vehicle/src/main/java/com/cqyc/vehicle/service/IAppointmentService.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/92ef780f-df82-4b1c-9416-27bf6a87a482/console.sql" />
+        <option value="$PROJECT_DIR$/vehicle/src/main/java/com/cqyc/vehicle/controller/StepController.java" />
+        <option value="$PROJECT_DIR$/vehicle/src/main/java/com/cqyc/vehicle/service/IStepService.java" />
+        <option value="$PROJECT_DIR$/vehicle/src/main/java/com/cqyc/vehicle/service/impl/StepServiceImpl.java" />
+        <option value="$PROJECT_DIR$/vehicle/src/test/java/generate/MySqlGenerator.java" />
+        <option value="$PROJECT_DIR$/vehicle/src/main/java/com/cqyc/vehicle/domain/vo/VehicleResultVo.java" />
+        <option value="$PROJECT_DIR$/vehicle/src/main/java/com/cqyc/vehicle/domain/vo/VehicleStepVo.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/idea64.vmoptions" />
+        <option value="$PROJECT_DIR$/vehicle/src/main/java/com/cqyc/vehicle/feign/ManageFeign.java" />
+        <option value="$PROJECT_DIR$/vehicle/src/main/java/com/cqyc/vehicle/feign/impl/ManageFeignImpl.java" />
+        <option value="$PROJECT_DIR$/manage-ment/src/main/java/com/cqyc/manage/controller/VehicleStaffController.java" />
+        <option value="$PROJECT_DIR$/vehicle/src/main/java/com/cqyc/vehicle/service/impl/AppointmentServiceImpl.java" />
+        <option value="$PROJECT_DIR$/login-sms/src/main/java/com/cqyc/login/controller/CommController.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
+        <option value="$PROJECT_DIR$/vehicle/src/main/java/com/cqyc/vehicle/controller/AppointmentController.java" />
+        <option value="$PROJECT_DIR$/vehicle/src/main/java/com/cqyc/vehicle/comm/VerityUtil.java" />
+        <option value="$PROJECT_DIR$/vehicle/src/main/java/com/cqyc/vehicle/domain/Result.java" />
+        <option value="$PROJECT_DIR$/login-sms/src/test/java/com/cqyc/login/SmsTest.java" />
+        <option value="$PROJECT_DIR$/vehicle/src/main/java/com/cqyc/vehicle/mapper/AppointmentMapper.java" />
+        <option value="$PROJECT_DIR$/vehicle/src/main/resources/mapper/vehicle/AppointmentMapper.xml" />
+        <option value="$PROJECT_DIR$/vehicle/pom.xml" />
+        <option value="$PROJECT_DIR$/vehicle/src/main/java/com/cqyc/vehicle/domain/Bo/VehicleResultBo.java" />
+        <option value="$PROJECT_DIR$/vehicle/src/test/java/com/cqyc/vehicle/EasyPoiTest.java" />
+        <option value="$PROJECT_DIR$/vehicle/src/main/java/com/cqyc/vehicle/comm/EasyPoiUtil.java" />
+        <option value="$PROJECT_DIR$/vehicle/src/main/java/com/cqyc/vehicle/config/security/ResourceServerConfig.java" />
+        <option value="$PROJECT_DIR$/zuul/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/manage-ment/src/main/java/com/cqyc/manage/controller/FileController.java" />
+        <option value="$PROJECT_DIR$/vehicle/src/main/java/com/cqyc/vehicle/comm/HttpClientUtil.java" />
+        <option value="$PROJECT_DIR$/vehicle/src/main/java/com/cqyc/vehicle/domain/bo/VehicleResultBo.java" />
+        <option value="$PROJECT_DIR$/vehicle/src/main/java/com/cqyc/vehicle/domain/bo/VehicleAllResBo.java" />
+        <option value="$PROJECT_DIR$/vehicle/src/main/java/com/cqyc/vehicle/service/IResultService.java" />
+        <option value="$PROJECT_DIR$/vehicle/src/main/java/com/cqyc/vehicle/controller/ResultController.java" />
+        <option value="$PROJECT_DIR$/vehicle/src/main/java/com/cqyc/vehicle/service/impl/ResultServiceImpl.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="$MAVEN_REPOSITORY$" />
+        <option name="mavenHome" value="/usr/local/maven" />
+        <option name="userSettingsFile" value="/usr/local/maven/conf/settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="auth-oauth" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1" />
+    <option name="y" value="1" />
+    <option name="width" value="1918" />
+    <option name="height" value="1011" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <hideEmptyPackages ProjectPane="false" />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="cloud-manage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud-manage" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="database.console.LAST_STATE" value="false" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../easyExcel-demo" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.cqyc.manage.feign.impl" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/manage-ment/src/main/resources" />
+      <recent name="$PROJECT_DIR$/manage-ment/src/main/java/com/cqyc/manage/config" />
+      <recent name="$PROJECT_DIR$/vehicle/src/test" />
+      <recent name="$PROJECT_DIR$/vehicle/src/main/resources" />
+      <recent name="$PROJECT_DIR$/vehicle/src/main/java/com/cqyc/vehicle/config" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.cqyc.manage.feign.impl" />
+      <recent name="com.cqyc.manage.feign" />
+      <recent name="com.cqyc.vehicle.config" />
+      <recent name="com.cqyc.vehicle.domain" />
+      <recent name="com.cqyc.vehicle.feign.impl" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/vehicle/src/test/java" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+    <option name="contentProportion" value="0.16106291" />
+  </component>
+  <component name="RunManager" selected="JUnit.SmsTest.test2">
+    <configuration name="MySqlGenerator (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="generate.MySqlGenerator" />
+      <module name="vehicle" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="generate.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MySqlGenerator (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="generator.MySqlGenerator" />
+      <module name="manage-ment" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="generator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SmsTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="login-sms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cqyc.login.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cqyc.login" />
+      <option name="MAIN_CLASS_NAME" value="com.cqyc.login.SmsTest" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SmsTest.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="login-sms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cqyc.login.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cqyc.login" />
+      <option name="MAIN_CLASS_NAME" value="com.cqyc.login.SmsTest" />
+      <option name="METHOD_NAME" value="test2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestOne.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="manage-ment" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cqyc.manage.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cqyc.manage" />
+      <option name="MAIN_CLASS_NAME" value="com.cqyc.manage.TestOne" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AuthApplicaiton" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="auth-oauth" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cqyc.auth.AuthApplicaiton" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConfigApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="service-config" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cqyc.config.ConfigApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="eureka-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cqyc.eurekaserver.EurekaServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FeignApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="service-feign" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cqyc.feign.FeignApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginSmsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="login-sms" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cqyc.login.LoginSmsApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ManageApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="manage-ment" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cqyc.manage.ManageApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RibbonApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="service-ribbon" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cqyc.ribbon.RibbonApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceHiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="eureka-client" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cqyc.client.ServiceHiApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ZullApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="zuul" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cqyc.zuul.ZullApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="vehicle" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="vehicle" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cqyc.vehicle.VehicleApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.MySqlGenerator (1)" />
+      <item itemvalue="Application.MySqlGenerator (2)" />
+      <item itemvalue="JUnit.SmsTest.test1" />
+      <item itemvalue="JUnit.TestOne.test" />
+      <item itemvalue="JUnit.SmsTest.test2" />
+      <item itemvalue="Spring Boot.vehicle" />
+      <item itemvalue="Spring Boot.EurekaServerApplication" />
+      <item itemvalue="Spring Boot.ServiceHiApplication" />
+      <item itemvalue="Spring Boot.RibbonApplication" />
+      <item itemvalue="Spring Boot.FeignApplication" />
+      <item itemvalue="Spring Boot.ZullApplication" />
+      <item itemvalue="Spring Boot.ConfigApplication" />
+      <item itemvalue="Spring Boot.ManageApplication" />
+      <item itemvalue="Spring Boot.LoginSmsApplication" />
+      <item itemvalue="Spring Boot.AuthApplicaiton" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.SmsTest.test2" />
+        <item itemvalue="Application.MySqlGenerator (1)" />
+        <item itemvalue="Application.MySqlGenerator (2)" />
+        <item itemvalue="JUnit.TestOne.test" />
+        <item itemvalue="JUnit.SmsTest.test1" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpringBootOptions">
+    <option name="showAdditionalConfigNotification" value="false" />
+  </component>
+  <component name="SpringGeneralSettings">
+    <option name="showProfilesPanel" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>$USER_HOME$/.subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e3fbdf07-2867-442e-a422-3532c26165b5" name="Default Changelist" comment="" />
+      <created>1570794220544</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1570794220544</updated>
+      <workItem from="1570794223281" duration="7086000" />
+      <workItem from="1570840732660" duration="8060000" />
+      <workItem from="1570938617030" duration="12820000" />
+      <workItem from="1571017566746" duration="18352000" />
+      <workItem from="1571047005812" duration="15722000" />
+      <workItem from="1571100125837" duration="1332000" />
+      <workItem from="1571117989074" duration="15379000" />
+      <workItem from="1571644416543" duration="10185000" />
+      <workItem from="1571807353318" duration="18395000" />
+      <workItem from="1571881799711" duration="18269000" />
+      <workItem from="1571964382734" duration="12452000" />
+      <workItem from="1571980984246" duration="13779000" />
+      <workItem from="1572079185872" duration="7448000" />
+      <workItem from="1572142312164" duration="26483000" />
+      <workItem from="1572224017044" duration="8990000" />
+      <workItem from="1572238021290" duration="335000" />
+      <workItem from="1572245123101" duration="15963000" />
+      <workItem from="1572408224212" duration="623000" />
+      <workItem from="1572424497958" duration="13995000" />
+      <workItem from="1572590099727" duration="6230000" />
+      <workItem from="1572707357741" duration="827000" />
+      <workItem from="1572751415830" duration="12343000" />
+      <workItem from="1572828948869" duration="334000" />
+      <workItem from="1572914423921" duration="12001000" />
+      <workItem from="1572940029786" duration="11764000" />
+      <workItem from="1573003056297" duration="2606000" />
+      <workItem from="1573087502081" duration="3394000" />
+      <workItem from="1573116241913" duration="3324000" />
+      <workItem from="1573432966823" duration="5449000" />
+      <workItem from="1573606139766" duration="9563000" />
+      <workItem from="1573694038958" duration="284000" />
+      <workItem from="1573698507378" duration="2090000" />
+      <workItem from="1573702510920" duration="37000" />
+      <workItem from="1573702973185" duration="18000" />
+      <workItem from="1573703856518" duration="24000" />
+      <workItem from="1574132733978" duration="1139000" />
+      <workItem from="1574133912034" duration="3280000" />
+      <workItem from="1574146012223" duration="332000" />
+      <workItem from="1574146382513" duration="8627000" />
+      <workItem from="1574218385847" duration="17099000" />
+      <workItem from="1574312329031" duration="5056000" />
+      <workItem from="1574392661563" duration="1041000" />
+      <workItem from="1574681517884" duration="3130000" />
+      <workItem from="1574747070035" duration="5530000" />
+      <workItem from="1575180540685" duration="9592000" />
+      <workItem from="1575508435985" duration="9974000" />
+      <workItem from="1575778940689" duration="5611000" />
+      <workItem from="1576985770052" duration="6374000" />
+      <workItem from="1577072093492" duration="21178000" />
+      <workItem from="1577100276663" duration="3000" />
+      <workItem from="1577100327228" duration="897000" />
+      <workItem from="1577154061002" duration="7961000" />
+      <workItem from="1577248463361" duration="5693000" />
+      <workItem from="1577324299579" duration="3368000" />
+      <workItem from="1577343232833" duration="1356000" />
+      <workItem from="1577346017654" duration="1818000" />
+      <workItem from="1577409995970" duration="5506000" />
+      <workItem from="1578540745736" duration="11309000" />
+      <workItem from="1578570439218" duration="1318000" />
+      <workItem from="1578619589336" duration="15264000" />
+      <workItem from="1578729785396" duration="3326000" />
+      <workItem from="1578798637546" duration="7283000" />
+      <workItem from="1578878565032" duration="24571000" />
+      <workItem from="1578927699745" duration="3002000" />
+      <workItem from="1578964544710" duration="25432000" />
+      <workItem from="1579051305656" duration="21599000" />
+      <workItem from="1579232524657" duration="22196000" />
+      <workItem from="1579317357522" duration="13296000" />
+      <workItem from="1579495638693" duration="8222000" />
+      <workItem from="1579589401114" duration="14408000" />
+      <workItem from="1579746642989" duration="23209000" />
+      <workItem from="1579848460858" duration="1302000" />
+      <workItem from="1579875119145" duration="2830000" />
+      <workItem from="1579934620002" duration="1132000" />
+      <workItem from="1580011427916" duration="9453000" />
+      <workItem from="1580102507016" duration="13683000" />
+      <workItem from="1580181291460" duration="5893000" />
+      <workItem from="1580280658286" duration="13663000" />
+      <workItem from="1580368724055" duration="15667000" />
+      <workItem from="1580438013130" duration="21816000" />
+      <workItem from="1580691933962" duration="24988000" />
+      <workItem from="1580809866677" duration="5295000" />
+      <workItem from="1580868494597" duration="17901000" />
+      <workItem from="1580955146378" duration="13516000" />
+      <workItem from="1581041834103" duration="14617000" />
+      <workItem from="1581127708352" duration="13586000" />
+      <workItem from="1581212249303" duration="11426000" />
+      <workItem from="1581300820502" duration="15944000" />
+      <workItem from="1581382486184" duration="17369000" />
+      <workItem from="1581470843725" duration="6435000" />
+      <workItem from="1581489140766" duration="16231000" />
+      <workItem from="1581556464361" duration="23563000" />
+      <workItem from="1581644525953" duration="9452000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="SmsTest_test1 - 2020.01.23 at 16h 18m 52s.xml">
+      <configuration name="SmsTest.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SmsTest_test1 - 2020.01.23 at 16h 19m 07s.xml">
+      <configuration name="SmsTest.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SmsTest_test1 - 2020.01.23 at 16h 21m 23s.xml">
+      <configuration name="SmsTest.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SmsTest_test1 - 2020.01.23 at 16h 22m 02s.xml">
+      <configuration name="SmsTest.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SmsTest_test1 - 2020.01.23 at 16h 23m 07s.xml">
+      <configuration name="SmsTest.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestOne_test - 2020.02.05 at 15h 54m 30s.xml">
+      <configuration name="TestOne.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestOne_test - 2020.02.05 at 15h 58m 18s.xml">
+      <configuration name="TestOne.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestOne_test - 2020.02.05 at 16h 00m 23s.xml">
+      <configuration name="TestOne.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestOne_test - 2020.02.05 at 16h 02m 44s.xml">
+      <configuration name="TestOne.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SmsTest_test2 - 2020.02.13 at 12h 02m 04s.xml">
+      <configuration name="SmsTest.test2" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="890718000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-1" y="-1" width="1922" height="1015" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49597424" visible="true" weight="0.18215811" />
+      <window_info id="Structure" order="1" sideWeight="0.50402576" side_tool="true" weight="0.16559829" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" sideWeight="0.5015674" side_tool="true" weight="0.1431624" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Database Console" order="0" weight="0.3283237" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Database Changes" order="2" weight="0.32716763" />
+      <window_info anchor="bottom" id="Find" order="3" weight="0.32947975" />
+      <window_info anchor="bottom" id="Run" order="4" weight="0.34913296" />
+      <window_info anchor="bottom" id="Debug" order="5" weight="0.3398844" />
+      <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="8" />
+      <window_info anchor="bottom" id="Spring" order="9" weight="0.32947975" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32947975" />
+      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50267094" side_tool="true" weight="0.24739884" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.32601157" />
+      <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info anchor="bottom" id="Tail" order="15" />
+      <window_info anchor="bottom" id="Java Enterprise" order="16" weight="0.3283237" />
+      <window_info active="true" anchor="bottom" id="Run Dashboard" order="17" sideWeight="0.49732906" visible="true" weight="0.2566474" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.10576923" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" visible="true" weight="0.0982906" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49597424" visible="true" weight="0.16559829" />
+      <window_info id="Structure" order="1" sideWeight="0.50402576" side_tool="true" weight="0.16559829" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" sideWeight="0.5015674" side_tool="true" weight="0.1431624" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Database Console" order="0" weight="0.3283237" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Database Changes" order="2" weight="0.32716763" />
+      <window_info anchor="bottom" id="Find" order="3" weight="0.32947975" />
+      <window_info anchor="bottom" id="Run" order="4" visible="true" weight="0.34913296" />
+      <window_info anchor="bottom" id="Debug" order="5" weight="0.3398844" />
+      <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="8" />
+      <window_info anchor="bottom" id="Spring" order="9" weight="0.32947975" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32947975" />
+      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50213677" side_tool="true" weight="0.35028902" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.32601157" />
+      <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info anchor="bottom" id="Tail" order="15" />
+      <window_info anchor="bottom" id="Java Enterprise" order="16" weight="0.3283237" />
+      <window_info anchor="bottom" id="Run Dashboard" order="17" sideWeight="0.49786323" weight="0.28208092" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.10576923" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" visible="true" weight="0.13995726" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/vehicle/src/test/java/generate/MySqlGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="79" column="30" selection-start-line="79" selection-start-column="30" selection-end-line="79" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/idea64.vmoptions">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="65" selection-start-line="16" selection-start-column="65" selection-end-line="16" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vehicle/src/main/java/com/cqyc/vehicle/domain/vo/VehicleStepVo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="21" column="20" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage-ment/src/main/java/com/cqyc/manage/controller/VehicleStepController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://92ef780f-df82-4b1c-9416-27bf6a87a482/schema/security_test/table/vehicle_step">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="76a8e09f-4964-4bc6-98cb-24b793302cd1">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage-ment/src/main/java/com/cqyc/manage/domain/VehicleStaff.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="91" column="20" selection-start-line="91" selection-start-column="20" selection-end-line="91" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vehicle/src/main/java/com/cqyc/vehicle/feign/impl/ManageFeignImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vehicle/src/main/java/com/cqyc/vehicle/feign/ManageFeign.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="27" column="15" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://92ef780f-df82-4b1c-9416-27bf6a87a482/schema/security_test/table/vehicle_staff">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="76a8e09f-4964-4bc6-98cb-24b793302cd1">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage-ment/src/main/java/com/cqyc/manage/controller/VehicleStaffController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="501">
+          <caret line="97" column="33" lean-forward="true" selection-start-line="97" selection-start-column="33" selection-end-line="97" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login-sms/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="33" lean-forward="true" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login-sms/src/main/java/com/cqyc/login/controller/CommController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="33" column="30" selection-start-line="33" selection-start-column="30" selection-end-line="33" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login-sms/src/main/java/com/cqyc/login/service/impl/CommServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="388">
+          <caret line="51" column="46" selection-start-line="51" selection-start-column="43" selection-end-line="51" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://92ef780f-df82-4b1c-9416-27bf6a87a482/schema/security_test/table/vehicle_info">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="398148d7-65b7-42d8-8bbe-dbdf0ea9aca0">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://92ef780f-df82-4b1c-9416-27bf6a87a482/schema/security_test/table/user_role">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="398148d7-65b7-42d8-8bbe-dbdf0ea9aca0">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://92ef780f-df82-4b1c-9416-27bf6a87a482/schema/security_test/table/role">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="398148d7-65b7-42d8-8bbe-dbdf0ea9aca0">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vehicle/src/main/java/com/cqyc/vehicle/feign/LoginFeign.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="24" column="68" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vehicle/src/main/java/com/cqyc/vehicle/feign/impl/AuthServiceClientImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vehicle/src/main/java/com/cqyc/vehicle/comm/VerityUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vehicle/src/main/java/com/cqyc/vehicle/service/impl/InfoServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="112" column="32" selection-start-line="112" selection-start-column="32" selection-end-line="112" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vehicle/src/main/java/com/cqyc/vehicle/service/impl/AppointmentServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-575">
+          <caret line="47" column="63" lean-forward="true" selection-start-line="47" selection-start-column="63" selection-end-line="47" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://92ef780f-df82-4b1c-9416-27bf6a87a482/schema/security_test/table/vehicle_appointment">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="398148d7-65b7-42d8-8bbe-dbdf0ea9aca0">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login-sms/src/test/java/generate/MySqlGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login-sms/src/test/java/com/cqyc/login/SmsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="105" column="72" lean-forward="true" selection-start-line="105" selection-start-column="8" selection-end-line="105" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vehicle/src/main/resources/mapper/vehicle/AppointmentMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="64" column="34" selection-start-line="64" selection-start-column="34" selection-end-line="64" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vehicle/src/main/java/com/cqyc/vehicle/mapper/AppointmentMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="41" column="60" selection-start-line="41" selection-start-column="55" selection-end-line="41" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage-ment/src/main/java/com/cqyc/manage/service/impl/FileServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="122" column="18" selection-start-line="122" selection-start-column="18" selection-end-line="122" selection-end-column="18" />
+          <folding>
+            <element signature="e#3386#3387#0" expanded="true" />
+            <element signature="e#3436#3437#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vehicle/src/main/java/com/cqyc/vehicle/controller/VehicleInfoController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7">
+          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vehicle/src/main/java/com/cqyc/vehicle/controller/AppointmentController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="35" column="41" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vehicle/src/main/java/com/cqyc/vehicle/domain/Result.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-257">
+          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vehicle/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="31" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zuul/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="18" column="125" selection-start-line="18" selection-start-column="125" selection-end-line="18" selection-end-column="125" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vehicle/src/main/java/com/cqyc/vehicle/config/security/ResourceServerConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="28" column="38" selection-start-line="28" selection-start-column="38" selection-end-line="28" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vehicle/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="103" column="20" selection-start-line="103" selection-start-column="20" selection-end-line="103" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.1.6.RELEASE/spring-aop-5.1.6.RELEASE.jar!/org/springframework/aop/framework/CglibAopProxy.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="371">
+          <caret line="511" selection-start-line="511" selection-end-line="511" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.1.5.RELEASE/spring-security-core-5.1.5.RELEASE.jar!/org/springframework/security/access/intercept/aopalliance/MethodSecurityInterceptor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.1.6.RELEASE/spring-core-5.1.6.RELEASE.jar!/org/springframework/cglib/proxy/MethodProxy.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="104" selection-start-line="104" selection-end-line="104" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/cn/afterturn/easypoi-base/3.2.0/easypoi-base-3.2.0.jar!/cn/afterturn/easypoi/excel/ExcelExportUtil.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="45" column="27" selection-start-line="45" selection-start-column="27" selection-end-line="45" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vehicle/src/main/java/com/cqyc/vehicle/comm/EasyPoiUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="82" column="47" selection-start-line="82" selection-start-column="47" selection-end-line="82" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vehicle/src/test/java/com/cqyc/vehicle/EasyPoiTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="393">
+          <caret line="25" column="31" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage-ment/src/main/java/com/cqyc/manage/controller/FileController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3">
+          <caret line="91" selection-start-line="91" selection-end-line="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vehicle/src/main/java/com/cqyc/vehicle/domain/Appointment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="51" column="33" selection-start-line="51" selection-start-column="19" selection-end-line="51" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vehicle/src/main/java/com/cqyc/vehicle/domain/bo/VehicleResultBo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vehicle/src/main/java/com/cqyc/vehicle/domain/VehicleInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-15">
+          <caret line="46" column="7" lean-forward="true" selection-start-line="46" selection-start-column="7" selection-end-line="46" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vehicle/src/main/java/com/cqyc/vehicle/domain/bo/VehicleAllResBo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vehicle/src/main/java/com/cqyc/vehicle/comm/HttpClientUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="30" column="42" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vehicle/src/main/java/com/cqyc/vehicle/service/IResultService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="393">
+          <caret line="44" column="45" selection-start-line="44" selection-start-column="45" selection-end-line="44" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vehicle/src/main/java/com/cqyc/vehicle/controller/ResultController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="107" column="71" lean-forward="true" selection-start-line="107" selection-start-column="71" selection-end-line="107" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://92ef780f-df82-4b1c-9416-27bf6a87a482/schema/security_test/table/vehicle_result">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="90c13f86-66b2-4fb4-a838-0139f860307d">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://92ef780f-df82-4b1c-9416-27bf6a87a482/schema/security_test/table/user">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="90c13f86-66b2-4fb4-a838-0139f860307d">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vehicle/src/main/java/com/cqyc/vehicle/service/impl/ResultServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="496">
+          <caret line="126" column="31" lean-forward="true" selection-start-line="126" selection-start-column="31" selection-end-line="126" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>zuul</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

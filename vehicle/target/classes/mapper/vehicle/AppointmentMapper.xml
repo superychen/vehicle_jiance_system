@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.cqyc.vehicle.mapper.AppointmentMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.cqyc.vehicle.domain.Appointment">
+        <id column="id" property="id"/>
+        <result column="vehicle_info_id" property="vehicleInfoId"/>
+        <result column="appoint_time" property="appointTime"/>
+        <result column="appoint_address" property="appointAddress"/>
+        <result column="appoint_username" property="appointUsername"/>
+        <result column="appoint_pay" property="appointPay"/>
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        id, vehicle_info_id, appoint_time, appoint_address, appoint_username, appoint_pay
+    </sql>
+
+    <resultMap id="resultAppVehicle" type="com.cqyc.vehicle.domain.Appointment">
+        <id column="id" property="id"/>
+        <result column="vehicle_info_id" property="vehicleInfoId"/>
+        <result column="appoint_time" property="appointTime"/>
+        <result column="appoint_address" property="appointAddress"/>
+        <result column="appoint_username" property="appointUsername"/>
+        <result column="appoint_pay" property="appointPay"/>
+        <result column="appoint_staff" property="appointStaff"></result>
+        <result column="appoint_is_detection" property="appointIsDetection"></result>
+        <collection property="vehicleInfo" ofType="com.cqyc.vehicle.domain.VehicleInfo">
+            <id column="id" property="id"></id>
+            <result column="vehicle_management" property="vehicleManagement"></result>
+            <result column="file_number" property="fileNumber"></result>
+            <result column="vehicle_user" property="vehicleUser"></result>
+            <result column="vehicle_user_telephone" property="vehicleUserTelephone"></result>
+            <result column="vehicle_number" property="vehicleNumber"></result>
+            <result column="vehicle_user_id_number" property="vehicleUserIdNumber"></result>
+            <result column="vehicle_type" property="vehicleType"></result>
+            <result column="vehicle_color" property="vehicleColor"></result>
+            <result column="system_type" property="systemType"></result>
+            <result column="vehicle_date" property="vehicleDate"></result>
+            <result column="vehicle_user_id" property="vehicleUserId"></result>
+        </collection>
+    </resultMap>
+
+    <!--查询已支付的订单(并且状态是未检测或者检测中的状态)-->
+    <select id="appointStatus" parameterType="int" resultMap="resultAppVehicle">
+        select * from vehicle_appointment as va
+            left join vehicle_info as vi on va.vehicle_info_id=vi.id
+            where vi.vehicle_user_id=#{uid} and va.appoint_pay=1 and va.appoint_is_detection in(0,1);
+    </select>
+
+
+    <select id="appointStaff" parameterType="list" resultMap="resultAppVehicle">
+        select * from vehicle_appointment as va
+        left join vehicle_info as vi on va.vehicle_info_id=vi.id
+        where va.id in
+        <foreach collection="appointIds" open="(" separator="," close=")" item="app">
+            #{app}
+        </foreach>
+    </select>
+
+    <select id="oneAppointInfo" parameterType="int" resultMap="resultAppVehicle">
+         select * from vehicle_appointment as va
+            left join vehicle_info as vi on va.vehicle_info_id=vi.id
+            where va.id = #{appId}
+    </select>
+</mapper>

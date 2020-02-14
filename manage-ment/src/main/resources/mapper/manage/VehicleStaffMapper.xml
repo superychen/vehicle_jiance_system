@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.cqyc.manage.mapper.VehicleStaffMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.cqyc.manage.domain.VehicleStaff">
+        <id column="id" property="id" />
+        <result column="staff_name" property="staffName" />
+        <result column="staff_age" property="staffAge" />
+        <result column="staff_sex" property="staffSex" />
+        <result column="staff_id_card" property="staffIdCard" />
+        <result column="staff_pic" property="staffPic" />
+        <result column="staff_introduce" property="staffIntroduce" />
+        <result column="staff_number" property="staffNumber" />
+        <result column="staff_user_id" property="staffUserId" />
+        <result column="staff_status" property="staffStatus" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        id, staff_name, staff_age, staff_sex, staff_id_card, staff_pic, staff_introduce, staff_number, staff_user_id, staff_status
+    </sql>
+
+</mapper>

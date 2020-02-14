@@ -1,0 +1,4 @@
+//安全权限控制注解
+ @PreAuthorize("authentication.principal.username=='吴许东'")//表示只有用户名为吴许东的用户可以访问
+ @PreAuthorize("hasRole('ROLE_ADMIN')")//表示具有user角色的用户可以访问
+ @Secured(value = ['ROLE_ADMIN'])//只有admin可访问

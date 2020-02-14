@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.cqyc.manage.mapper.MenuMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.cqyc.manage.domain.Menu">
+        <id column="mid" property="mid"/>
+        <result column="menu_title" property="menuTitle"/>
+        <result column="menu_path" property="menuPath"/>
+        <result column="menu_icon" property="menuIcon"/>
+        <result column="menu_level" property="menuLevel"/>
+        <result column="menu_pid" property="menuPid"/>
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        mid, menu_title, menu_path, menu_icon, menu_level, menu_pid
+    </sql>
+
+    <resultMap id="menus" type="com.cqyc.manage.domain.Menu">
+        <id column="mid" property="mid"/>
+        <result column="menu_title" property="menuTitle"/>
+        <result column="menu_path" property="menuPath"/>
+        <result column="menu_icon" property="menuIcon"/>
+        <result column="menu_level" property="menuLevel"/>
+        <result column="menu_pid" property="menuPid"/>
+        <collection property="roles" ofType="com.cqyc.manage.domain.Role">
+            <id property="rid" column="rid"></id>
+            <result property="rname" column="rname"></result>
+        </collection>
+    </resultMap>
+
+    <!--查询用户的菜单栏,-->
+    <select id="allMenus" resultMap="menus">
+        select m.*,r.rname from menu_role as mr  left join menu m on mr.mid = m.mid
+        left join role r on mr.rid=r.rid where r.rid in(
+            <foreach collection="list" item="id" separator=",">
+                #{id}
+            </foreach>
+        );
+    </select>
+
+    <insert id="addMenuRole" parameterType="int">
+        insert into menu_role (mid,rid) values (#{mid},#{rid})
+    </insert>
+
+    <!--根据菜单id查询对应的角色-->
+    <select id="selectMenuRole" parameterType="Integer" resultType="Integer">
+        select rid from menu_role where mid= #{mid}
+    </select>
+
+    <!--删除菜单角色对应的中间表的信息-->
+    <delete id="deleteMenuRole" parameterType="Integer">
+        delete from menu_role where mid=#{mid}
+    </delete>
+    
+    <!--删除菜单角色对应的中间表的信息-->
+    <delete id="deleteRole" parameterType="java.util.List">
+        delete from menu_role where rid in
+        <foreach collection="rids" item="rid" open="(" separator="," close=")">
+            #{rid}
+        </foreach>
+    </delete>
+</mapper>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.cqyc.vehicle.mapper.VehicleInfoMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.cqyc.vehicle.domain.VehicleInfo">
+        <id column="id" property="id" />
+        <result column="vehicle_management" property="vehicleManagement" />
+        <result column="file_number" property="fileNumber" />
+        <result column="vehicle_user" property="vehicleUser" />
+        <result column="vehicle_user_telephone" property="vehicleUserTelephone" />
+        <result column="vehicle_number" property="vehicleNumber" />
+        <result column="vehicle_user_id_number" property="vehicleUserIdNumber" />
+        <result column="vehicle_type" property="vehicleType" />
+        <result column="vehicle_color" property="vehicleColor" />
+        <result column="system_type" property="systemType" />
+        <result column="buy_date" property="buyDate" />
+        <result column="vehicle_user_id" property="vehicleUserId" />
+        <result column="vehicle_engine_number" property="vehicleEngineNumber" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        id, vehicle_management, file_number, vehicle_user, vehicle_user_telephone, vehicle_number, vehicle_user_id_number, vehicle_type, vehicle_color, system_type, buy_date, vehicle_user_id, vehicle_engine_number
+    </sql>
+
+</mapper>

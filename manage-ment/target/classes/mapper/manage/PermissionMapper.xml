@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.cqyc.manage.mapper.PermissionMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.cqyc.manage.domain.Permission">
+        <id column="pid" property="pid" />
+        <result column="name" property="name" />
+        <result column="url" property="url" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        pid, name, url
+    </sql>
+
+    <select id="selectPermission" parameterType="integer" resultType="com.cqyc.manage.domain.Permission">
+        select * from permission where pid in (select pid from permission_role where rid = #{rid})
+    </select>
+
+    <!--插入权限角色中间表-->
+    <insert id="addRolePermission" parameterType="int">
+        insert into permission_role (rid,pid) values (#{rid},#{pid})
+    </insert>
+
+    <!--删除权限角色数据-->
+    <delete id="deleteRoleIds" parameterType="java.util.List">
+        delete from permission_role where rid in 
+        <foreach collection="rids" item="rid" open="(" close=")" separator=",">
+            #{rid}
+        </foreach>
+    </delete>
+
+    <!--查询角色权限表中是否有数据-->
+    <select id="findPerRole" parameterType="int" resultType="int">
+        select count(*) from permission_role where pid = #{pid}
+    </select>
+
+    <!--循环查询中间表中的ids-->
+    <select id="findPerRoleForPid" parameterType="java.util.List" resultType="int">
+        select count(*) from permission_role where pid in
+        <foreach collection="pids" item="pid" open="(" close=")" separator=",">
+            #{pid}
+        </foreach>
+    </select>
+</mapper>

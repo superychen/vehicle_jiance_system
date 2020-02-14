@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.cqyc.manage.mapper.UserMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.cqyc.manage.domain.User">
+        <id column="uid" property="uid"/>
+        <result column="username" property="username"/>
+        <result column="password" property="password"/>
+    </resultMap>
+
+    <resultMap id="resultUserRole" type="com.cqyc.manage.domain.User">
+        <id column="uid" property="uid"/>
+        <result column="username" property="username"/>
+        <result column="address" property="address"></result>
+        <result column="telephone" property="telephone"></result>
+        <collection property="roles" ofType="com.cqyc.manage.domain.Role">
+            <id column="rid" property="rid"></id>
+            <result column="rname" property="rname"></result>
+        </collection>
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        uid, username, password
+    </sql>
+
+    <select id="getOneUserRole" parameterType="int" resultMap="resultUserRole">
+        select u.uid,u.username,u.address,u.telephone,r.rid,r.rname from user as u
+            left join  user_role as ur on u.uid = ur.uid left join role as r on r.rid = ur.rid
+             where u.uid = #{uid};
+    </select>
+
+
+    <delete id="deleteRole" parameterType="java.util.List">
+        delete from user_role where rid in
+        <foreach collection="rids" item="rid" open="(" separator="," close=")">
+            #{rid}
+        </foreach>
+    </delete>
+
+    <!--插入用户角色-->
+    <insert id="insertUserRole" parameterType="java.util.List">
+        insert into user_role(uid,rid) values
+        <foreach collection="roleIds" item="rid" separator=",">
+            (#{uid},#{rid})
+        </foreach>
+    </insert>
+
+    <!---->
+    <delete id="deleteUserRole" parameterType="int">
+        delete from user_role where uid = #{uid}
+    </delete>
+
+</mapper>

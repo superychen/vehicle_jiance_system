@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="service-config" />
+        <module name="zuul" />
+        <module name="eureka-server" />
+        <module name="eureka-client" />
+        <module name="service-feign" />
+        <module name="login-sms" />
+        <module name="auth-oauth" />
+        <module name="service-ribbon" />
+        <module name="manage-ment" />
+        <module name="vehicle" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="auth-oauth" options="-parameters" />
+      <module name="eureka-client" options="-parameters" />
+      <module name="eureka-server" options="-parameters" />
+      <module name="login-sms" options="-parameters" />
+      <module name="manage-ment" options="-parameters" />
+      <module name="service-config" options="-parameters" />
+      <module name="service-feign" options="-parameters" />
+      <module name="service-ribbon" options="-parameters" />
+      <module name="vehicle" options="-parameters" />
+      <module name="zuul" options="-parameters" />
+    </option>
+  </component>
+</project>
