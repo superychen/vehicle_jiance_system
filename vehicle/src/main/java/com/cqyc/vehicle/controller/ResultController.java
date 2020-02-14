@@ -18,6 +18,7 @@ import com.cqyc.vehicle.service.impl.InfoServiceImpl;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.collections.CollectionUtils;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;
 
@@ -43,6 +44,9 @@ public class ResultController {
 
     @Autowired
     private InfoServiceImpl infoService;
+
+    @Value("${easy.excel.picurl}")
+    private String easyExcelPicUrl;
 
     /**
      * 员工填写检测结果
@@ -92,7 +96,7 @@ public class ResultController {
                 res.setIsConformityPercent(res.getIsConformityText());
             } else {
                 res.setConformityText("不合格");
-                res.setNotConformtyPic("http://192.168.0.110/" + res.getNotConformtyPic());
+                res.setNotConformtyPic(easyExcelPicUrl + res.getNotConformtyPic());
                 //读取fastdfs的图片
                 res.setBrokePic(HttpClientUtil.getImageFromNetByUrl(res.getNotConformtyPic()));
             }
@@ -113,7 +117,7 @@ public class ResultController {
                     res.setIsConformityPercent(res.getIsConformityText());
                 } else {
                     res.setConformityText("不合格");
-                    res.setNotConformtyPic("http://192.168.0.110/" + res.getNotConformtyPic());
+                    res.setNotConformtyPic(easyExcelPicUrl + res.getNotConformtyPic());
                     //读取fastdfs的图片
                     res.setBrokePic(HttpClientUtil.getImageFromNetByUrl(res.getNotConformtyPic()));
                 }
