@@ -9,7 +9,7 @@
       <case-sensitivity plain-identifiers="exact" quoted-identifiers="exact" />
       <secret-storage>master_key</secret-storage>
       <user-name>root</user-name>
-      <introspection-schemas>*:security_test</introspection-schemas>
+      <introspection-schemas>*:cy_waimai,security_test</introspection-schemas>
     </data-source>
   </component>
 </project>

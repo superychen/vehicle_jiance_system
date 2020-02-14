@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e3fbdf07-2867-442e-a422-3532c26165b5" name="Default Changelist" comment="" />
+    <list default="true" id="e3fbdf07-2867-442e-a422-3532c26165b5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/eureka-server/target/" />
@@ -41,12 +44,6 @@
         <item name="@localhost" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
       </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="security_test: schema" type="ebfa3cd1:MariaImplModel$Schema" />
-      </path>
     </expand>
     <select />
   </component>
@@ -57,80 +54,7 @@
     <favorites_list name="cloud-manage" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vehicle/src/main/java/com/cqyc/vehicle/controller/ResultController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="107" column="71" lean-forward="true" selection-start-line="107" selection-start-column="71" selection-end-line="107" selection-end-column="71" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vehicle/src/main/java/com/cqyc/vehicle/service/IResultService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="393">
-              <caret line="44" column="45" selection-start-line="44" selection-start-column="45" selection-end-line="44" selection-end-column="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/vehicle/src/main/java/com/cqyc/vehicle/service/impl/ResultServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="496">
-              <caret line="126" column="31" lean-forward="true" selection-start-line="126" selection-start-column="31" selection-end-line="126" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vehicle/src/main/java/com/cqyc/vehicle/comm/HttpClientUtil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="30" column="42" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="42" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vehicle/src/main/java/com/cqyc/vehicle/domain/bo/VehicleAllResBo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="217">
-              <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/manage-ment/src/main/java/com/cqyc/manage/controller/FileController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3">
-              <caret line="91" selection-start-line="91" selection-end-line="91" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vehicle/src/main/java/com/cqyc/vehicle/comm/EasyPoiUtil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="205">
-              <caret line="82" column="47" selection-start-line="82" selection-start-column="47" selection-end-line="82" selection-end-column="47" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -171,6 +95,9 @@
       <dir>$PROJECT_DIR$/vehicle/src/main/java/com/cqyc/vehicle/service</dir>
     </dirStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -192,7 +119,6 @@
         <option value="$PROJECT_DIR$/vehicle/src/main/java/com/cqyc/vehicle/feign/manageFeign.java" />
         <option value="$PROJECT_DIR$/vehicle/src/main/java/com/cqyc/vehicle/domain/vo/DistriVo.java" />
         <option value="$PROJECT_DIR$/vehicle/src/main/java/com/cqyc/vehicle/service/IAppointmentService.java" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/92ef780f-df82-4b1c-9416-27bf6a87a482/console.sql" />
         <option value="$PROJECT_DIR$/vehicle/src/main/java/com/cqyc/vehicle/controller/StepController.java" />
         <option value="$PROJECT_DIR$/vehicle/src/main/java/com/cqyc/vehicle/service/IStepService.java" />
         <option value="$PROJECT_DIR$/vehicle/src/main/java/com/cqyc/vehicle/service/impl/StepServiceImpl.java" />
@@ -225,6 +151,7 @@
         <option value="$PROJECT_DIR$/vehicle/src/main/java/com/cqyc/vehicle/service/IResultService.java" />
         <option value="$PROJECT_DIR$/vehicle/src/main/java/com/cqyc/vehicle/controller/ResultController.java" />
         <option value="$PROJECT_DIR$/vehicle/src/main/java/com/cqyc/vehicle/service/impl/ResultServiceImpl.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/92ef780f-df82-4b1c-9416-27bf6a87a482/console.sql" />
       </list>
     </option>
   </component>
@@ -254,6 +181,7 @@
     <option name="width" value="1918" />
     <option name="height" value="1011" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <hideEmptyPackages ProjectPane="false" />
@@ -281,6 +209,7 @@
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="database.console.LAST_STATE" value="false" />
@@ -621,7 +550,7 @@
       <workItem from="1581470843725" duration="6435000" />
       <workItem from="1581489140766" duration="16231000" />
       <workItem from="1581556464361" duration="23563000" />
-      <workItem from="1581644525953" duration="9452000" />
+      <workItem from="1581644525953" duration="10598000" />
     </task>
     <servers />
   </component>
@@ -658,12 +587,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="890718000" />
+    <option name="totallyTimeSpent" value="891864000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="-1" width="1922" height="1015" extended-state="6" />
+    <frame x="-1" y="-1" width="1922" height="1015" extended-state="7" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49597424" visible="true" weight="0.18215811" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49597424" visible="true" weight="0.18215811" />
       <window_info id="Structure" order="1" sideWeight="0.50402576" side_tool="true" weight="0.16559829" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -671,7 +600,8 @@
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" sideWeight="0.5015674" side_tool="true" weight="0.1431624" />
       <window_info id="Web" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Database Console" order="0" weight="0.3283237" />
+      <window_info anchor="bottom" id="SQL Generator" weight="0.32908458" />
+      <window_info anchor="bottom" id="Database Console" order="0" weight="0.32792583" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Database Changes" order="2" weight="0.32716763" />
       <window_info anchor="bottom" id="Find" order="3" weight="0.32947975" />
@@ -688,14 +618,14 @@
       <window_info anchor="bottom" id="Version Control" order="14" />
       <window_info anchor="bottom" id="Tail" order="15" />
       <window_info anchor="bottom" id="Java Enterprise" order="16" weight="0.3283237" />
-      <window_info active="true" anchor="bottom" id="Run Dashboard" order="17" sideWeight="0.49732906" visible="true" weight="0.2566474" />
+      <window_info anchor="bottom" id="Run Dashboard" order="17" sideWeight="0.49732906" visible="true" weight="0.20857474" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Maven" order="3" weight="0.10576923" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Database" order="6" visible="true" weight="0.0982906" />
+      <window_info anchor="right" id="Database" order="6" visible="true" weight="0.19818376" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info anchor="right" id="Bean Validation" order="9" />
@@ -747,20 +677,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/vehicle/src/test/java/generate/MySqlGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="79" column="30" selection-start-line="79" selection-start-column="30" selection-end-line="79" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/idea64.vmoptions">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="65" selection-start-line="16" selection-start-column="65" selection-end-line="16" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vehicle/src/main/java/com/cqyc/vehicle/domain/vo/VehicleStepVo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -1148,6 +1064,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="496">
           <caret line="126" column="31" lean-forward="true" selection-start-line="126" selection-start-column="31" selection-end-line="126" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://92ef780f-df82-4b1c-9416-27bf6a87a482/schema/cy_waimai/table/menu">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="90c13f86-66b2-4fb4-a838-0139f860307d">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/92ef780f-df82-4b1c-9416-27bf6a87a482/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="38" column="39" selection-start-line="38" selection-start-column="39" selection-end-line="38" selection-end-column="39" />
         </state>
       </provider>
     </entry>
